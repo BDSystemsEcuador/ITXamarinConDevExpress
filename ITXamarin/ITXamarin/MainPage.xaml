@@ -10,6 +10,8 @@
     </ContentPage.BindingContext>
     <dxcv:DXCollectionView ItemsSource="{Binding Data}"
                            DisplayMember="Name"
-                           DisplayFormat="Contact: {0}">
+                           DisplayFormat="Name: {0}"
+                           
+                           >
     </dxcv:DXCollectionView>
 </ContentPage>
