@@ -5,13 +5,20 @@
              xmlns:dxcv="http://schemas.devexpress.com/xamarin/2014/forms/collectionview"
              x:Class="ITXamarin.MainPage">
 
-    <ContentPage.BindingContext>
-        <local:ViewModel/>
-    </ContentPage.BindingContext>
-    <dxcv:DXCollectionView ItemsSource="{Binding Data}"
-                           DisplayMember="Name"
-                           DisplayFormat="Name: {0}"
-                           
-                           >
-    </dxcv:DXCollectionView>
+    <StackLayout>
+        <SearchBar Placeholder="Busca tu cliente"
+                   x:Name="search"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference search}}"
+                   ></SearchBar>
+        <ListView>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Mario1</x:String>
+                    <x:String>Mario2</x:String>
+                    <x:String>Mario3</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
 </ContentPage>
