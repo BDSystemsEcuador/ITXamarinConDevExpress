@@ -50,10 +50,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Xamarin.Android.CollectionView">
-      <HintPath>..\..\..\..\..\Downloads\DevExpress.MobileUI.XamarinForms-20.2.5-20210121\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.CollectionView.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Downloads\DevExpress.MobileUI.XamarinForms-20.2.5-20210121\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.CollectionView.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XamarinForms.CollectionView.Android">
-      <HintPath>..\..\..\..\..\Downloads\DevExpress.MobileUI.XamarinForms-20.2.5-20210121\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.CollectionView.Android.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Dropbox\Mi PC (LAPTOP-PGDP0T8B)\Downloads\DevExpress.MobileUI.XamarinForms-20.2.5-20210121\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.CollectionView.Android.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />

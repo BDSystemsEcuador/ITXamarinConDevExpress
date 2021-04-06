@@ -29,7 +29,7 @@ namespace ITXamarin.ViewModels
                 });
         }
         public async Task LoadClients() {
-            var url = "http://localhost:64777/Service1.svc/getClientesSQL";
+            var url = "http://192.168.1.1:64777//Service1.svc/getClientesSQL";
             var service =
                 new HttpHelper<Clientes>();
             var clientes = await service.GetRestServiceDataAsync(url);
